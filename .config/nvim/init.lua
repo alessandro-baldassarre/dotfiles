@@ -285,6 +285,8 @@ require('Comment').setup({
         extra = false,
         extended = false,
     },
+    pre_hook =
+        require('ts_context_commentstring.integrations.comment_nvim').create_pre_hook(),
 })
 
 
@@ -525,6 +527,9 @@ require('nvim-treesitter.configs').setup {
     },
     autotag = {
         enable = true,
+    },
+    context_commentstring = {
+        enable = true
     }
 }
 

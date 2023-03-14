@@ -58,6 +58,7 @@ return require('packer').startup(function()
     use 'RRethy/vim-illuminate'                                      -- Highlight other uses of word under cursor
     use "lukas-reineke/indent-blankline.nvim"                        -- ident lines
     use 'numToStr/Comment.nvim'                                      -- Enable comments
+    use 'JoosepAlviste/nvim-ts-context-commentstring'
     use 'folke/trouble.nvim'                                         -- Summarizes issues
     use 'folke/todo-comments.nvim'                                   -- Todo comments
     use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' } -- Make telescope faster
