@@ -31,7 +31,6 @@ return require('packer').startup(function()
     use 'jayp0521/mason-null-ls.nvim'
     use 'jose-elias-alvarez/typescript.nvim'                                 -- typescript
     use 'williamboman/mason-lspconfig.nvim'                                  -- closes gaps with mason
-    use 'MunifTanjim/prettier.nvim'
     use 'tanvirtin/monokai.nvim'                                             -- Color scheme
     use { 'kyazdani42/nvim-tree.lua',                                        -- Filesystem navigation
         requires = 'kyazdani42/nvim-web-devicons' }                          -- Filesystem icons
