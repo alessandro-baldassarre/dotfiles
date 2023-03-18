@@ -97,6 +97,7 @@ return require('packer').startup(function()
     use 'iamcco/markdown-preview.nvim'
     use 'windwp/nvim-ts-autotag'
     use 'princejoogie/tailwind-highlight.nvim'
+    use "rafamadriz/friendly-snippets"
 
 
     if packer_bootstrap then
