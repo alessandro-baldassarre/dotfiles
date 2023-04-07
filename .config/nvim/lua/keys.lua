@@ -61,10 +61,10 @@ map("n", "<leader>q", ":q<CR>")
 map("n", "<leader>qa", ":qa<CR>")
 
 -- Window navigation
-map("n", "<C-j>", "<C-w>j<C-w>") -- left
-map("n", "<C-h>", "<C-w>h<C-w>") -- right
-map("n", "<C-k>", "<C-w>k<C-w>")
-map("n", "<C-l>", "<C-w>l<C-w>")
+map("n", "<C-h>", "<C-w>h") -- left
+map("n", "<C-j>", "<C-w>j") -- right
+map("n", "<C-k>", "<C-w>k")
+map("n", "<C-l>", "<C-w>l")
 map("n", "<leader>sv", "<C-w>v")
 map("n", "<leader>sh", "<C-w>s")
 map("n", "<leader>se", "<C-w>=")
@@ -94,10 +94,10 @@ map("n", "<leader>fsh", ":lua require('telescope.builtin').search_history()<cr>"
 map("n", "<leader>fmp", ":lua require('telescope.builtin').man_pages()<cr>")
 
 -- telescope git commands
-map("n", "<leader>gc", "<cmd>Telescope git_commits<cr>") -- list all git commits (use <cr> to checkout) ["gc" for git commits]
+map("n", "<leader>gc", "<cmd>Telescope git_commits<cr>")   -- list all git commits (use <cr> to checkout) ["gc" for git commits]
 map("n", "<leader>gfc", "<cmd>Telescope git_bcommits<cr>") -- list git commits for current file/buffer (use <cr> to checkout) ["gfc" for git file commits]
-map("n", "<leader>gb", "<cmd>Telescope git_branches<cr>") -- list git branches (use <cr> to checkout) ["gb" for git branch]
-map("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current changes per file with diff preview ["gs" for git status]
+map("n", "<leader>gb", "<cmd>Telescope git_branches<cr>")  -- list git branches (use <cr> to checkout) ["gb" for git branch]
+map("n", "<leader>gs", "<cmd>Telescope git_status<cr>")    -- list current changes per file with diff preview ["gs" for git status]
 
 -- Todo List
 map("n", "<leader>qf", ":TodoQuickFix<cr>")
